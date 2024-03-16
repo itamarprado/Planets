@@ -1,0 +1,13 @@
+.title {
+    font-size: 2rem;
+    padding: 2rem 0;
+    text-decoration: underline;
+    text-decoration-color: orange;
+    text-align: center;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.5rem
+}
